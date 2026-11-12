@@ -1,0 +1,23 @@
+// Local dataset: surplus food listings.
+// hoursLeft = hours remaining before the food is no longer safe to eat.
+export const categories = ['Bakery', 'Fruits & Veg', 'Cooked Meals', 'Dairy', 'Packaged', 'Beverages'];
+export const dietaryOptions = ['Halal', 'Vegetarian', 'Vegan'];
+
+export const foods = [
+  { id: 'f1', name: 'Fresh Bread Loaves', category: 'Bakery', donorId: 'd1', quantity: 20, unit: 'loaves', kgPerUnit: 0.4, hoursLeft: 8, emoji: '🍞', tags: ['Halal', 'Vegetarian'], pickupWindow: '4:00 PM - 8:00 PM', description: 'Baked this morning. Unsold loaves in perfect condition.' },
+  { id: 'f2', name: 'Chicken Buns', category: 'Bakery', donorId: 'd1', quantity: 30, unit: 'pieces', kgPerUnit: 0.12, hoursLeft: 6, emoji: '🥟', tags: ['Halal'], pickupWindow: '5:00 PM - 8:00 PM', description: 'Soft buns with spicy chicken filling.' },
+  { id: 'f3', name: 'Vegetable Rolls', category: 'Bakery', donorId: 'd1', quantity: 25, unit: 'pieces', kgPerUnit: 0.1, hoursLeft: 5, emoji: '🥐', tags: ['Halal', 'Vegetarian'], pickupWindow: '5:00 PM - 8:00 PM', description: 'Crispy rolls filled with potato and carrot.' },
+  { id: 'f4', name: 'Banana Bunches', category: 'Fruits & Veg', donorId: 'd3', quantity: 15, unit: 'bunches', kgPerUnit: 0.8, hoursLeft: 48, emoji: '🍌', tags: ['Halal', 'Vegetarian', 'Vegan'], pickupWindow: '9:00 AM - 6:00 PM', description: 'Ripe bananas, ideal for eating today or tomorrow.' },
+  { id: 'f5', name: 'Ripe Papaya', category: 'Fruits & Veg', donorId: 'd3', quantity: 10, unit: 'pieces', kgPerUnit: 1.2, hoursLeft: 36, emoji: '🍈', tags: ['Halal', 'Vegetarian', 'Vegan'], pickupWindow: '9:00 AM - 6:00 PM', description: 'Fully ripe papaya with a few cosmetic marks.' },
+  { id: 'f6', name: 'Mixed Vegetable Box', category: 'Fruits & Veg', donorId: 'd3', quantity: 12, unit: 'boxes', kgPerUnit: 3, hoursLeft: 30, emoji: '🥬', tags: ['Halal', 'Vegetarian', 'Vegan'], pickupWindow: '9:00 AM - 5:00 PM', description: 'Carrots, beans, leeks and cabbage in each box.' },
+  { id: 'f7', name: 'Rice & Curry Packs', category: 'Cooked Meals', donorId: 'd2', quantity: 40, unit: 'packs', kgPerUnit: 0.5, hoursLeft: 4, emoji: '🍛', tags: ['Halal'], pickupWindow: '2:00 PM - 5:00 PM', description: 'Lunch packs with rice, dhal, vegetables and chicken curry.' },
+  { id: 'f8', name: 'Fried Rice Trays', category: 'Cooked Meals', donorId: 'd5', quantity: 6, unit: 'trays', kgPerUnit: 2, hoursLeft: 3, emoji: '🍚', tags: ['Halal'], pickupWindow: '1:00 PM - 4:00 PM', description: 'Leftover event catering. Each tray serves 8 people.' },
+  { id: 'f9', name: 'Dhal Curry', category: 'Cooked Meals', donorId: 'd2', quantity: 8, unit: 'litres', kgPerUnit: 1, hoursLeft: 5, emoji: '🥘', tags: ['Halal', 'Vegetarian', 'Vegan'], pickupWindow: '2:00 PM - 5:00 PM', description: 'Freshly cooked dhal. Bring your own container.' },
+  { id: 'f10', name: 'Egg Biryani Packs', category: 'Cooked Meals', donorId: 'd5', quantity: 25, unit: 'packs', kgPerUnit: 0.45, hoursLeft: 4, emoji: '🍲', tags: ['Halal'], pickupWindow: '1:00 PM - 4:00 PM', description: 'Packed biryani with boiled egg and raita.' },
+  { id: 'f11', name: 'Fresh Milk Packets', category: 'Dairy', donorId: 'd4', quantity: 50, unit: 'packets', kgPerUnit: 0.5, hoursLeft: 20, emoji: '🥛', tags: ['Halal', 'Vegetarian'], pickupWindow: '8:00 AM - 7:00 PM', description: 'Pasteurised milk close to its best-before time.' },
+  { id: 'f12', name: 'Buffalo Curd Pots', category: 'Dairy', donorId: 'd4', quantity: 30, unit: 'pots', kgPerUnit: 0.3, hoursLeft: 36, emoji: '🍶', tags: ['Halal', 'Vegetarian'], pickupWindow: '8:00 AM - 7:00 PM', description: 'Traditional clay-pot curd.' },
+  { id: 'f13', name: 'Yoghurt Cups', category: 'Dairy', donorId: 'd4', quantity: 40, unit: 'cups', kgPerUnit: 0.15, hoursLeft: 72, emoji: '🥣', tags: ['Halal', 'Vegetarian'], pickupWindow: '8:00 AM - 7:00 PM', description: 'Sealed fruit yoghurt cups.' },
+  { id: 'f14', name: 'Biscuit Packs', category: 'Packaged', donorId: 'd6', quantity: 60, unit: 'packs', kgPerUnit: 0.2, hoursLeft: 240, emoji: '🍪', tags: ['Halal', 'Vegetarian'], pickupWindow: '10:00 AM - 8:00 PM', description: 'Sealed packs with damaged outer cartons.' },
+  { id: 'f15', name: 'Instant Noodles', category: 'Packaged', donorId: 'd6', quantity: 45, unit: 'packs', kgPerUnit: 0.08, hoursLeft: 480, emoji: '🍜', tags: ['Halal'], pickupWindow: '10:00 AM - 8:00 PM', description: 'Short-dated noodle packs, still safe and sealed.' },
+  { id: 'f16', name: 'Bottled Fruit Juice', category: 'Beverages', donorId: 'd6', quantity: 36, unit: 'bottles', kgPerUnit: 0.3, hoursLeft: 120, emoji: '🧃', tags: ['Halal', 'Vegetarian', 'Vegan'], pickupWindow: '10:00 AM - 8:00 PM', description: 'Mixed fruit juice, sealed bottles near best-before date.' },
+];

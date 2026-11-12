@@ -1,9 +1,9 @@
-# FoodRescue — Day1
+# FoodRescue — Day2
 
-This is the complete project snapshot at the end of Day1, taken from the original Git history.
+This is the complete project snapshot at the end of Day2, taken from the original Git history.
 
 ## Work included
-chore: initialize Expo React Native app with tab and stack navigation
+feat: add local food and donor datasets with AsyncStorage persistence
 
 ## Run
 
@@ -19,7 +19,7 @@ npx expo start
 
 ```bash
 git add .
-git commit -m "chore: initialize Expo React Native app with tab and stack navigation"
+git commit -m "feat: add local food and donor datasets with AsyncStorage persistence"
 ```
 
 This archive is a standalone snapshot. The original Git repository metadata is intentionally not included.
