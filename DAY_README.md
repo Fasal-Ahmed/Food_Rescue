@@ -1,25 +1,12 @@
-# FoodRescue — Day2
+# Day 3 – Functional application
 
-This is the complete project snapshot at the end of Day2, taken from the original Git history.
+Added the working FoodRescue experience:
+- Home dashboard and food listings
+- Search, category and dietary filters
+- Food details and quantity reservation
+- Donor directory
+- My Rescues: collect/cancel reservations
+- Impact statistics and reset
+- Reusable SearchBar, CategoryChips and FoodCard components
 
-## Work included
-feat: add local food and donor datasets with AsyncStorage persistence
-
-## Run
-
-
-dependencies:
-
-```bash
-npm install
-npx expo start
-```
-
-## Git commit
-
-```bash
-git add .
-git commit -m "feat: add local food and donor datasets with AsyncStorage persistence"
-```
-
-This archive is a standalone snapshot. The original Git repository metadata is intentionally not included.
+Run `npm install` and `npx expo start`.
